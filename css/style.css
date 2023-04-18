@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #dee2e6;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.ul-header{
+    display: flex;
+    list-style: none;
+    color: white;
+    
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header h1{
+    padding: 15px;
+}
+
+.ul-header li{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    height: 8vh;
+    background-color: aqua;
+    
+    
+}
+
+.ul-footer{
+    display: flex;
+    list-style: none;
+}
+
+.ul-footer li{
+    margin: 0 10px;
+}
+
+.ul-footer li a{
+    color: black;
+}
+
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.imagen{
+    font-size: 20px;
+    color: rgb(13, 13, 14);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+
+.imagen img{
+    background-size: cover;
+    
+}
+
+
+
+.boca img{
+
+    width: 500px;
+    font-size: 30px;  
+ 
+}
+
+.contacto{
+    background-image: url("../recursos/messi.webp");
+    background-position: center;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.h1{
+    color: white;
+}
+
+.river{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+
+}
+
+.foto{
+    width: 30%;
+}
+
+
+
+.cancha-river img{
+height: 500px;
+width: 1000px;
+
+}
+
+.racing img{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.estadio {
+
+    height: 500px;
+    width: 1000px;
+    
+}
+
+.cancha-2 img{
+    height: 500px;
+    width: 700px;
+   
+}
+
+.prueba{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 40%;
+}
+
